@@ -1,0 +1,17 @@
+TAGS
+Strong = Negrito
+U      = ITALICO
+Q      = ASPAS
+B      = NEGRITO
+<br> = quebra linha de elementos inline
+getElementById
+getElementByClassName
+getElementByTagName
+Var > nome da 'pasta'
+addEventListener
+
+assistir o aulao do gabriel
+para sites de eecomerce
+php margento do zero
+react 
+vue

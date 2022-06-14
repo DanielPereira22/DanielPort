@@ -1,0 +1,149 @@
+'TEL:NUMERO'
+'MAILTO:EMAIL'
+IMG SRC=
+WIDTh LARGURA
+HEIGHT ALTURA
+spam marcação
+Ifreme
+src
+iframe
+viewport para abrir em qualquer dispositivo
+h1 ... h6 - criar títulos
+p - criar um parágrafo
+a - criar um link
+img - exibir uma imagem
+div - agrupar elemento
+O child selector, p > a, nos permite selecionar um elemento a que seja um filho direto de outro elemento p.
+O adjacent sibling selector, p + a, seleciona o elemento a após p, desde que os dois estejam no mesmo container.
+O general sibling selector, p ~ a, seleciona qualquer elemento a após p, desde que ambos estejam no mesmo container.
+CSS
+font-style:italic; ----- fonte escolhida
+font-style: normal; ----remover fonte
+font-size ---- tamanho da fonte
+text-align ------ right, left, justify e center
+@font-face importar fonte
+Font-stretch: Faz com que a fonte customizada seja aplicada apenas a elementos que possuem esse mesmo valor na propriedade font-stretch
+font-weight: Faz com que essa fonte seja aplicada apenas a textos formatados com essa espessura de texto. Por exemplo, se definirmos esse atributo como 400, apenas textos formatados com font-weight: 400 usarão essa fonte;
+unicode-range: Faixa de caracteres (em hexadecimal, baseado na tabela ASCII) que serão formatados com essa fonte. O valor padrão é U+0-10FFFF, que abrange todos os caracteres.
+none: remove todas as transformações, o que é útil para anular algum estilo anteriormente aplicado pelo navegador;
+uppercase: deixa todas as letras em maiúscula;
+lowercase: deixa todas as letras em minúscula.
+Outra propriedade muito utilizada para decorações é a text-decoration. Com ela podemos, por exemplo, remover o sublinhado de links, como pode ser visto abaixo:
+underline: aplica uma linha abaixo do texto;
+overline: aplica uma linha sobre o texto;
+line-through: risca o texto.
+E[atributo="valor"]: elementos do tipo E cujo atributo seja igual a valor.
+E[atributo^="valor"]: elementos do tipo E cujo valor do atributo comece com a palavra valor.
+E[atributo$=”"valor"]: elementos do tipo E cujo valor do atributo termine com a palavra valor.
+E[atributo*="valor"]: elemento
+:root: seleciona o elemento raiz do documento, no caso, é a tag HTML.
+E:nth-child(N): seleciona o elemento do tipo E que seja o N-ésimo filho do seu elemento pai.
+E:nth-last-child(N): semelhante ao anterior, mas começando a contagem de baixo para cima.
+E:nth-of-type(N): seleciona o elemento que seja o N-ésimo do seu tipo.
+E:nth-last-of-type(N): semelhante ao anterior, mas contando de baixo para cima.
+E:last-child: seleciona o elemento E que seja o último filho do elemento pai.
+E:first-of-type: seleciona o elemento E que seja o primeiro de seu tipo dentro do elemento pai.
+E:last -of-type: semelhante ao anterior, mas com o último elemento.
+E:only-child: seleciona o elemento E que seja o único filho do seu elemento pai.
+E:only-of-type: seleciona o elemento que seja o único filho deste tipo dentro de seu elemento pai.
+<LI> ITEM
+E:empty: seleciona o elemento E que esteja vazio, sem nenhum elemento filho.
+:target: seleciona o objeto alvo de um link interno (aqueles que são precedidos por # e que direcionam o usuário para um elemento na página).
+E:enabled: seleciona o elemento E que esteja habilitado para o usuário
+E:disabled: semelhante ao anterior, mas para elementos desabilitados.
+E:checked: seleciona elementos que estejam marcados (radios e checkboxes).
+::selection: formata o conteúdo selecionado pelo usuário.
+:not(P): seleciona os elementos que não atendem ao seletor simples P.
+E~F: seleciona todo elemento F que seja precedido por um elemento E.
+class .
+id #
+repeat-y
+
+Repete-se na vertical.
+
+repeat-x
+
+Repete-se na horizontal.
+
+no-repeat
+
+Não se repete.
+
+repeat
+
+Valor padrão, repete-se nas duas direções.
+background-attachment.
+
+scroll
+
+Valor padrão assumido pela imagem de fundo. Define que ao rolar a página a imagem também irá rolar.
+
+fixed
+
+Faz com que a imagem não se movimente junto com o documento, dando a impressão de que o conteúdo desliza sobre o fundo.
+
+local
+
+Especifica que a imagem de fundo de um documento interno vai se movimentar junto com o fundo do documento principal.
+
+inherit
+
+Especifica que a propriedade recebe, por herança, a mesma configuração indicada para o elemento pai.
+
+initial
+
+Indica à propriedade que o valor padrão deve ser utilizado.
+background-origin.
+
+padding-box
+
+Define que a renderização da imagem inicia-se junto ao padding.
+
+border-box
+
+Define que a renderização da imagem inicia-se junto à borda;.
+
+content-box
+
+Define que a renderização da imagem inicia-se junto ao conteúdo do elemento.
+background-blend-mode.
+
+nomal
+
+Mantém as características normais do plano de fundo.
+
+multiply
+
+Multiplica o valor da cor de um pixel, deixando-o mais escuro. Pixels de cor preta ou branca não serão alterados.
+
+screen
+
+Funciona de forma inversa ao multiply, deixando as cores mais claras.
+
+overlay
+
+Escurece os pixels que já são escuros e clareia os pixels que já são claros;
+
+darken
+
+Compara o objeto de cima com o de baixo e mantém o pixel que for mais escuro, logo, substitui os mais claros, escurecendo o conteúdo presente no elemento.
+
+lighten
+
+Possui comportamento inverso ao do Darken. Compara os dois objeto e mantém os pixels mais claros, tornando mais claro o conteúdo presente no elemento.
+
+color-dodge
+
+Clareia os pixels e aumenta o contraste. Costuma ser usado para criar efeitos brilhosos;
+
+saturation
+
+Reproduz a saturação do objeto de cima no objeto de baixo, mas o objeto de baixo continua com sua cor e brilho originais.
+
+color
+
+Reproduz a saturação e a cor do objeto de cima no objeto de baixo, mas o objeto de baixo continua com o seu brilho original.
+
+luminosity
+
+Reproduz o brilho do objeto de cima no objeto de baixo, mas o objeto de baixo continua com a sua saturação e cor originais.

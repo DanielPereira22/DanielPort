@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-image: url(img.html.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-clip: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: black;
+    
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 0.05rem;
+}
+
+#menu ul li {
+    display: inline-flex;
+    padding-inline: 50px;
+
+}
+
+#menu ul li a {
+    padding: 20px;
+    display: inline-block;
+    border-bottom: 1px;
+    border-radius: 25px;
+    background-color: Black;
+}
+
+#menu {
+    
+    position: fixed; top: 0;
+    width: 100%;
+    z-index: 10;
+    list-style: none;
+    text-align: Left;
+    background-color: Black;
+    min-width: 700px;
+    
+
+}
+
+#menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.links {
+    background-color: gold;
+}
+
+#Hello h1 {
+    display: block;
+    text-align: center;
+    
+    font-size: 32px;
+    padding: 10px;
+    
+}
+
+
+#Hello {
+    display: block;
+    padding-top: 200px;
+    margin-top: 30px;
+    border-top: 30px;
+  
+    
+}
+#Sobre:hover{
+    background-color: white;
+    color: black;
+}
+#Habilidades:hover{
+    background-color: white;
+    color: black;
+}
+#Experiencias:hover{
+    background-color: white;
+    color: black;
+}
+span:hover{
+    background-color: white;
+    color: black;
+}
+section {
+    
+    border-top: 30px;
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+   min-width: none;
+    background-color: Black;
+}
+section div {
+    display: flex; flex-wrap: wrap;
+    justify-content:flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: Black;
+}
+/*RESPONSIVE LAYOUT*/
+@media (max-width:600px) {
+    #menu ul li {
+        flex-direction: column;
+        flex-direction: column;
+   }
+}
